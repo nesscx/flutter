@@ -29,11 +29,11 @@ beautiful Material Design and
 Cupertino (iOS-flavor) widgets, rich motion APIs,
 smooth natural scrolling, and platform awareness.
 
-[<img src="https://github.com/flutter/website/blob/master/images/homepage/screenshot-1.png" width="270" height="480" alt="Brand-first shopping design" align="left">](https://github.com/flutter/flutter/tree/master/examples/flutter_gallery/lib/demo/animation)
-[<img src="https://github.com/flutter/website/blob/master/images/homepage/screenshot-2.png" width="270" height="480" alt="Fitness app design">](https://github.com/flutter/posse_gallery)
+[<img src="https://github.com/flutter/website/blob/master/src/images/homepage/screenshot-1.png?raw=true" width="270" height="480" alt="Brand-first shopping design" align="left">](https://github.com/flutter/flutter/tree/master/examples/flutter_gallery/lib/demo/animation)
+[<img src="https://github.com/flutter/website/blob/master/src/images/homepage/screenshot-2.png" width="270" height="480" alt="Fitness app design">](https://github.com/flutter/posse_gallery)
 
-[<img src="https://github.com/flutter/website/blob/master/images/homepage/screenshot-3.png" width="270" height="480" alt="Contact app design" align="left">](https://github.com/flutter/flutter/blob/master/examples/flutter_gallery/lib/demo/contacts_demo.dart)
-[<img src="https://github.com/flutter/website/blob/master/images/homepage/ios-friendlychat.png" width="270" height="480" alt="iOS chat app design">](https://codelabs.developers.google.com/codelabs/flutter/)
+[<img src="https://github.com/flutter/website/blob/master/src/images/homepage/screenshot-3.png" width="270" height="480" alt="Contact app design" align="left">](https://github.com/flutter/flutter/blob/master/examples/flutter_gallery/lib/demo/contacts_demo.dart)
+[<img src="https://github.com/flutter/website/blob/4ed3f9f42719742a0f13f3d3c9ce1654a197bd51/src/images/homepage/ios-friendlychat.png?raw=true" width="270" height="480" alt="iOS chat app design">](https://codelabs.developers.google.com/codelabs/flutter/)
 
 Browse the <a href="https://flutter.io/widgets/">widget catalog</a>.
 
@@ -66,7 +66,7 @@ class CounterState extends State<Counter> {
     // instances of widgets.
     return new Row(
       children: <Widget>[
-        new RaisedButton(
+        new RaisedButton(sz
           onPressed: increment,
           child: new Text('Increment'),
         ),
